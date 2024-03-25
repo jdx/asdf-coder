@@ -56,8 +56,8 @@ arch() {
 extension() {
 	case $(os) in
 	darwin) echo zip ;;
-  *) echo tar.gz ;;
-  esac
+	*) echo tar.gz ;;
+	esac
 }
 
 download_release() {
